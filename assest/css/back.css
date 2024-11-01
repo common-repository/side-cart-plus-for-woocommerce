@@ -1,0 +1,92 @@
+/* Style the tab */
+.siwscp_tab {
+    overflow: hidden;
+    border: 1px solid #d9d9d9;
+    background-color: #ccc;
+}
+/* Style the buttons that are used to open the tab content */
+.siwscp_tab li {
+    background-color: inherit;
+    float: left;
+    border: inherit;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 14px 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+svg {
+    width: 30px;
+    height: 30px;
+}
+.tabcontent  h3 {
+    width: 98.5%;
+    display: inline-block;
+    float: left;
+    background: pink;
+    margin: 0px;
+    padding: 10px;
+}
+.tabcontent tr {
+    line-height: 53px;
+}
+.tabcontent table.data_table {
+    width: 100%;
+    display: inline-block;
+    /* float: left; */
+}
+.tabcontent table.data_table {
+    text-align: left;
+    width: 100%;
+    display: inline-block;
+    /* float: left; */
+    padding: 11px;
+}
+.siwscp_tab ul {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    margin: 0px;
+}
+.siwscp_tab li.tablinks {
+    width: auto;
+    display: inline-block;
+    float: left;
+    float: left;
+   padding: 10px 20px;
+    margin: 0px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.siwscp_tab li.tablinks {
+    background: #ccc;
+}
+
+/* Change background color of buttons on hover */
+.siwscp_tab li:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.siwscp_tab li.current {
+  background-color: #efeeee;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tabcontent.current {
+  display: block;
+
+}
+.siwscp_main_generate {
+    width: 95%;
+    display: inline-block;
+    float: left;
+    float: left;
+    margin: 23px;
+    background: #fff;
+}
